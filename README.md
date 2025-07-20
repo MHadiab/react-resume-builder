@@ -20,8 +20,8 @@ A dynamic, web-based tool for creating professional resumes with a real-time pre
 
 Here is a preview of the key features in action:
 
-https://github.com/user-attachments/assets/aabecb6e-50d1-4d7e-b979-14183df41f62
-https://github.com/user-attachments/assets/aa0b6b52-7e1e-450e-9b3f-540cda0cf95f
+(https://github.com/user-attachments/assets/aabecb6e-50d1-4d7e-b979-14183df41f62)
+(https://github.com/user-attachments/assets/aa0b6b52-7e1e-450e-9b3f-540cda0cf95f)
 
 
 ### 🛠️ Tech Stack

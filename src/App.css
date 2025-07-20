@@ -1,0 +1,290 @@
+
+.resume-maker{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 6fr;
+  grid-row: 1fr;
+  gap: 30px;
+  padding: 20px 30px 0 30px;
+  background-color: rgba(198, 200, 202, 0.45);
+}
+.nav{
+  grid-column: 1;
+  margin: 0 !important;
+  height: 200px;
+}
+.info{
+  grid-column: 2;
+}
+.resume{
+  grid-column: 3;
+  background-color:white;
+}
+.settings{
+  list-style-type:none;
+  width: 100%;
+  height: 210px;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.settings li{
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.settings li button{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.active{
+    background-color:rgba(214, 214, 214, 0.238) !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  background-color: white !important;
+}
+.accordion-body{
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+}
+.accordion-item{
+  margin-bottom: 7%;
+  background-color: white !important;
+  border-radius: 10px !important;
+}
+.accordion-button {
+  padding: 7% !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+}
+.accordion-button:hover {
+  background-color: transparent !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-item *{
+  border-radius: 20px !important;
+}
+.accordion-header button{
+  font-size: large;
+  font-weight: 450;
+
+}
+#personal-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.form-control{
+  padding: 1.5%;
+  padding-left: 3%;
+  border-color: rgba(125, 125, 125, 0.081) !important;
+  background-color: rgba(214, 214, 214, 0.238) !important;
+  border-radius: 10px !important;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+.date-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.date-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.btn-outline-danger{
+  height: 20px;
+  width: 20px;
+  font-size: 14px !important;
+}
+.formb form{
+  background-color: white;
+  border-radius: 10px;
+  height: 130px;
+  padding: 30px;
+  & input{
+    border-radius: 30px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+  }
+}
+  .fontb{
+    margin-left: 6px;
+  }
+  .layout-form{
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+    height: 150px !important;
+    border-radius: 10px;
+    & h2{
+      margin-bottom: 10px;
+    }
+  }
+  .column-layout-btn{
+    background-color: rgba(0, 0, 0, 0.123);
+    border-top: 20px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  .row-layout-btn{
+    background-color: rgba(0, 0, 0, 0.123);
+    border-left: 20px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .row-reverse-layout-btn{
+    background-color: rgba(0, 0, 0, 0.123);
+    border-right: 20px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+  }
+
+
+/* ----------media-query-------------------------------- */
+@media only screen and (max-width: 1276px) {
+  .fonta{
+    margin-right: 10px;
+  }
+  .fontb{
+    margin-right: 5px;
+  }
+  .resume-maker{
+    display: grid;
+    grid-template-columns: 2fr 5fr !important;
+  }
+  .resume{
+    grid-column: 2 !important;
+    grid-row: 1;
+  }
+  .nav{
+    grid-row: 1;
+    grid-column: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 100px !important;
+    padding-top: 10px;
+    margin-bottom: 50px !important;
+  }
+  .info{
+    margin-top: 180px;
+    grid-column: 1 !important;
+    grid-row: 1;
+  }
+  .settings{
+    width: 100%;
+    height: 145px;
+}
+  .settings li button{
+    background-color: white;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+  }
+}
+#colorPicker{
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+@media only screen and (max-width: 1300px) {
+    .fontb{
+      margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1139px) {
+
+    .layout-form{
+      height: 200px !important;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .formb form{
+      height: 200px !important;
+    }
+    .layout-form{
+      height: 280px !important;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    .fonta{
+      margin: 0px;
+    }
+    .fontb{
+      margin: 0px;
+    }
+    .formb form{
+      height: 200px !important;
+    }
+    .layout-form{
+      height: 280px !important;
+    }
+}
+@media only screen and (max-width: 1041px) {
+    .formb form{
+      height: 230px !important;
+    }
+    .layout-form{
+      height: 300px !important;
+    }
+}
+
+
+
+
+

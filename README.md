@@ -2,7 +2,7 @@
 
 A dynamic, web-based tool for creating professional resumes with a real-time preview. Built with React, this application offers powerful customization options and a modern, user-friendly interface.
 
-➡️ **Live Demo**: https://react-resume-builder-nu.vercel.app/
+➡️ **Live Demo**: https://react-resume-builder-nu.vercel.app
 
 ---
 

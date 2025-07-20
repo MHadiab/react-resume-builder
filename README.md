@@ -16,6 +16,13 @@ A dynamic, web-based tool for creating professional resumes with a real-time pre
 * **Responsive Design:** The entire application is fully responsive, providing a seamless experience on all devices.
 * **Font Awesome Icons:** Professional icons are used to enhance the clarity of contact information.
 
+### 🚀 Project Showcase
+
+Here is a preview of the key features in action:
+
+https://github.com/user-attachments/assets/aabecb6e-50d1-4d7e-b979-14183df41f62
+https://github.com/user-attachments/assets/aa0b6b52-7e1e-450e-9b3f-540cda0cf95f
+
 
 ### 🛠️ Tech Stack
 

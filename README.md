@@ -20,8 +20,8 @@ A dynamic, web-based tool for creating professional resumes with a real-time pre
 
 Here is a preview of the key features in action:
 
-![Live Typing Preview]([URL_FOR_TYPING_GIF_HERE](https://github.com/user-attachments/assets/aa0b6b52-7e1e-450e-9b3f-540cda0cf95f))
-![Color Picker And Layout]([URL_FOR_COLOR_CHANGE_GIF_HERE](https://github.com/user-attachments/assets/aabecb6e-50d1-4d7e-b979-14183df41f62)) |
+![Live Typing Preview]([https://github.com/user-attachments/assets/aa0b6b52-7e1e-450e-9b3f-540cda0cf95f])
+![Color Picker And Layout]([https://github.com/user-attachments/assets/aabecb6e-50d1-4d7e-b979-14183df41f62]) 
 
 
 ### 🛠️ Tech Stack
